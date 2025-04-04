@@ -5,6 +5,19 @@
         public Equipamento[] equipamentos = new Equipamento[100];
         public int contadorEquipamentos = 0;
 
+        public void ApresentarOpcoesDeMenu()
+        {
+            Console.WriteLine("para controlar equipamentos digite (E)");
+            Console.WriteLine("para controlar chamados digite (C)");
+            string OpEscolhidaMenu = Console.ReadLine()!.ToUpper();
+
+            if (OpEscolhidaMenu == "E")
+                ApresentarMenu();
+
+            else if (OpEscolhidaMenu == "C")
+               Chamados.ApresentarMenu2();
+        }
+
         public string ApresentarMenu()
         {
             Console.Clear();

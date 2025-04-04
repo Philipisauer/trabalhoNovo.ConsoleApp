@@ -10,6 +10,8 @@
 
             while (true)
             {
+                telaEquipamento.ApresentarOpcoesDeMenu();
+
                 string opcaoEscolhida = telaEquipamento.ApresentarMenu();
 
                 switch (opcaoEscolhida)
