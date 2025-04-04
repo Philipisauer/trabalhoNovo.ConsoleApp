@@ -6,7 +6,7 @@
         {
             Console.Clear();
             Console.WriteLine("___________________________");
-            Console.WriteLine("Gestao de chamados");
+            Console.WriteLine("Gestão de chamados");
             Console.WriteLine("___________________________");
 
             Console.WriteLine("escolha a operacao desejada:");
