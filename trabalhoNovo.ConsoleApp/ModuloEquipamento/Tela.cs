@@ -1,4 +1,7 @@
-﻿namespace trabalhoNovo.ConsoleApp
+﻿using trabalhoNovo.ConsoleApp.Compartilhado;
+using trabalhoNovo.ConsoleApp.ModuloChamado;
+
+namespace trabalhoNovo.ConsoleApp
 {
     public class Tela
     {

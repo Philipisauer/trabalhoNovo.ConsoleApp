@@ -1,4 +1,4 @@
-﻿namespace trabalhoNovo.ConsoleApp
+﻿namespace trabalhoNovo.ConsoleApp.Compartilhado
 {
     public static class GeradorId
     {
